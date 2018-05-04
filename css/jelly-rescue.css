@@ -1,0 +1,202 @@
+html,body{
+    margin: 0;
+    padding: 0;            
+}
+
+.poster-image{
+    width: 100%;
+    height: 650px;
+    background: url('../img/jelly-rescue/Poster3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: padding-box;    
+}
+
+#gametitle{
+    width: 100%;    
+    padding-bottom: 50px;  
+    background: #feb645;
+    background: -moz-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(2%, #feb645), color-stop(49%, #feb645), color-stop(77%, #f1e767), color-stop(100%, #f1e767));
+    background: -webkit-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: -o-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: -ms-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: linear-gradient(to bottom, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
+} 
+
+#video{
+    width: 100%;
+      
+    text-align: center;    
+    background: #f1e767;
+    background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(0%, #f1e767), color-stop(17%, #f1e767), color-stop(50%, #feb645), color-stop(82%, #f1e767), color-stop(100%, #f1e767));
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-o-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-ms-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);    
+    background-image: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);;
+    background-repeat: repeat-x;  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#f1e767', GradientType=0 );
+    
+}
+
+#screenshots{
+    width: 100%;
+    padding-top: 100px;
+    background: #f1e767;
+   
+    background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(0%, #f1e767), color-stop(23%, #f1e767), color-stop(51%, #feb645), color-stop(98%, #feb645));
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
+    background: url("../img/jelly-rescue/Fondo.png"),-o-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
+    background: url("../img/jelly-rescue/Fondo.png"),-ms-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
+    background: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );     
+}
+
+#platforms{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #feb645;
+    background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(2%, #feb645), color-stop(49%, #feb645), color-stop(77%, #f1e767), color-stop(100%, #f1e767));
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-o-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-ms-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
+}
+
+.imagen{
+    width: 400px;
+    height: 400px;       
+    background-position: center;
+    background-origin: padding-box;  
+    display:inline-block;
+    margin:auto;   
+}
+
+.upper-buttons #btn-streamer-pack{
+    color:white;
+    height: 24px; 
+    text-align: center; 
+    width: 10%;
+    position: fixed;    
+    right: 20px;
+    background: black;
+    border-radius: 0 0 6px 6px;   
+    box-shadow: 2px 2px gray;   
+    z-index: 10;     
+}
+
+.upper-buttons #btn-studio{    
+    color:white;
+    height: 24px; 
+    text-align: center; 
+    width: 10%;
+    position: fixed;    
+    left: 20px;
+    background: black;
+    border-radius: 0 0 6px 6px;   
+    box-shadow: 2px 2px gray;   
+    z-index: 10;     
+}
+    
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 0;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .portfolio {
+    margin-bottom: -30px;
+  }
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+}
+
+.portfolio-modal{
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-modal .portfolio-modal-dialog {      
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  -moz-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  display: inline-block;    
+}
+
+.portfolio-modal .imagen-modal{    
+    height: 500px;           
+    background-position: center;
+    background-origin: padding-box;  
+    display:inline-block;
+    margin:auto;   
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button {
+  position: absolute;
+  top: 1%;
+  right: 1%;  
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button i {
+  line-height: 38px;
+}
+
+a{
+    color: goldenrod;
+}
+a:hover,a:active{
+    color: gold;
+}
+
+.titleImage{
+    width: 100%;
+    display: block;
+    margin: 0 auto;       
+}
+.platform-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.platform-background{
+    width: 100px;
+    height: 100px;
+    z-index:1;
+    content:  "\f13b";
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
