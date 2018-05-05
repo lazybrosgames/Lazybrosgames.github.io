@@ -46,7 +46,7 @@ html,body{
     width: 100%;
     padding-top: 100px;
     background: #f1e767;
-   
+    text-align: center;
     background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
     background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(0%, #f1e767), color-stop(23%, #f1e767), color-stop(51%, #feb645), color-stop(98%, #feb645));
     background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
@@ -60,6 +60,7 @@ html,body{
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
+    text-align: center;
     background: #feb645;
     background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
     background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(2%, #feb645), color-stop(49%, #feb645), color-stop(77%, #f1e767), color-stop(100%, #f1e767));
@@ -181,6 +182,9 @@ a:hover,a:active{
     width: 100%;
     display: block;
     margin: 0 auto;       
+}
+.title{
+    margin-bottom: 50px;
 }
 .platform-container{
     position: relative;
