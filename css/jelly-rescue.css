@@ -6,31 +6,35 @@ html,body{
 }
 
 .poster-image{
-    width: 100%;
-    height: 650px;
+    width: 100%;    
+    min-height: 550px;
     background: url('../img/jelly-rescue/Poster3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-origin: padding-box;    
+    background-origin: padding-box;
+    margin: auto 0;
+}
+
+.container-image{
+    width: 100%;
+    height: 600px;
 }
 
 #gametitle{
     width: 100%;    
-    padding-bottom: 50px;  
     background: #feb645;
-    background: -moz-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(2%, #feb645), color-stop(49%, #feb645), color-stop(77%, #f1e767), color-stop(100%, #f1e767));
-    background: -webkit-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: -o-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: -ms-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: linear-gradient(to bottom, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(2%, #feb645), color-stop(49%, #feb645), color-stop(77%, #f1e767), color-stop(100%, #f1e767));
+    background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-o-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),-ms-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
+    background: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
 } 
 
 #video{
-    width: 100%;
-      
+    width: 100%;      
     text-align: center;    
     background: #f1e767;
     background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);
@@ -38,8 +42,7 @@ html,body{
     background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);
     background: url("../img/jelly-rescue/Fondo.png"),-o-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);
     background: url("../img/jelly-rescue/Fondo.png"),-ms-linear-gradient(top, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);    
-    background-image: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);;
-    background-repeat: repeat-x;  
+    background-image: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #f1e767 0%, #f1e767 17%, #feb645 50%, #f1e767 82%, #f1e767 100%);;     
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#f1e767', GradientType=0 );
     
 }
@@ -73,20 +76,11 @@ html,body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
 }
 
-.imagen{
-    width: 400px;
-    height: 400px;       
-    background-position: center;
-    background-origin: padding-box;  
-    display:inline-block;
-    margin:auto;   
-}
-
 .upper-buttons #btn-streamer-pack{
     color:white;
-    height: 24px; 
+    height: fit-content; 
     text-align: center; 
-    width: 10%;
+    width: fit-content;
     position: fixed;    
     right: 20px;
     background: black;
@@ -97,9 +91,9 @@ html,body{
 
 .upper-buttons #btn-studio{    
     color:white;
-    height: 24px; 
+    height: fit-content; 
     text-align: center; 
-    width: 10%;
+    width: fit-content;
     position: fixed;    
     left: 20px;
     background: black;
@@ -209,7 +203,7 @@ a:hover,a:active{
     color: white;
 }
 
-.video-frame{
-    max-width: 854px;    
-    width: 100%;    
+.video-frame{    
+    display: block;    
+    margin: 0 auto;    
 }
