@@ -9,17 +9,22 @@
     <meta name="author" content="">
 
     <title>Jelly Rescue</title>
-
+    <script>
+        window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+        ga('create', 'UA-118884553-1', 'auto');
+        ga('send', 'pageview');    
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118884553-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118884553-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-118884553-1');
-    </script>
+    </script> -->
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -142,7 +147,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-lg-12 text-center platform-container">
-                    <a id="html5-link">
+                    <a href="https://lazybrosgames.itch.io/jellyrescue" onclick="ga('send', 'event', { eventCategory: 'Platform', eventAction: 'Click', eventLabel: 'Html5'});">
                         <img src="img/jelly-rescue/platform-background.png" class="platform-background">
                         <i class="fa fa-html5 fa-4x centered"></i>
                     </a>
