@@ -19,9 +19,4 @@ html5.addEventListener('click', function (event) {
             window.location.replace('https://lazybrosgames.itch.io/jellyrescue');
         }
     });
-    ga('send', 'event', 'Signup Form', 'submit', {
-        hitCallback: function () {
-            form.submit();
-        }
-    });
 });
