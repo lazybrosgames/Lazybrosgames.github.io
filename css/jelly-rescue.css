@@ -240,3 +240,16 @@ a:hover,a:active{
     display: block;    
     margin: 0 auto;    
 }
+
+.footer-bar{
+    height: 40px;
+    width: 100%;
+    background: orange;
+    text-align: center; 
+}
+
+.footer-bar a{
+    color:yellow;
+    font-weight: bold;
+    margin-top: 10px;
+}
