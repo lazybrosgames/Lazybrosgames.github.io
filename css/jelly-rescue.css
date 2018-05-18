@@ -81,6 +81,7 @@ html,body{
 #screenshots{
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 100px;
     background: #f1e767;
     text-align: center;
     background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #f1e767 0%, #f1e767 23%, #feb645 51%, #feb645 98%);
@@ -97,14 +98,7 @@ html,body{
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
-    background: #feb645;
-    background: url("../img/jelly-rescue/Fondo.png"),-moz-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: url("../img/jelly-rescue/Fondo.png"),-webkit-gradient(left top, left bottom, color-stop(2%, #feb645), color-stop(49%, #feb645), color-stop(77%, #f1e767), color-stop(100%, #f1e767));
-    background: url("../img/jelly-rescue/Fondo.png"),-webkit-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: url("../img/jelly-rescue/Fondo.png"),-o-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: url("../img/jelly-rescue/Fondo.png"),-ms-linear-gradient(top, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    background: url("../img/jelly-rescue/Fondo.png"),linear-gradient(to bottom, #feb645 2%, #feb645 49%, #f1e767 77%, #f1e767 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
+    background: #f1e767;    
 }
 
 .upper-buttons #btn-streamer-pack{
@@ -217,17 +211,16 @@ a:hover,a:active{
 .title{
     margin-bottom: 50px;
 }
-.platform-container{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.platform-background{
-    width: 100px;
+
+.platform-google-play img{
+    width: 258.4px;
     height: 100px;
-    z-index:1;
-    content:  "\f13b";
+    margin: 20px;
 }
+.platform-html5 img{
+    margin: 38px;
+}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -244,12 +237,19 @@ a:hover,a:active{
 .footer-bar{
     height: 40px;
     width: 100%;
-    background: orange;
+    background: #feb645;
     text-align: center; 
 }
 
 .footer-bar a{
-    color:yellow;
+    color: #f1e767;
     font-weight: bold;
     margin-top: 10px;
+    position: absolute;
+}
+
+.legal-attribution{
+    color: #f1e767;
+    font-size: 8px;
+    float: right;
 }
